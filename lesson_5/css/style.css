@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+@import "reset.css";
+
+@font-face {
+	font-family: "Nilam";
+	src: url("../fonts/NilamRegular.woff2") format("woff2"), url("../fonts/NilamRegular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Nilam";
+	src: url("../fonts/NilamBold.woff2") format("woff2"), url("../fonts/NilamExtraBold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Nilam";
+	src: url("../fonts/NilamExtraBold.woff2") format("woff2"), url("../fonts/NilamExtraBold.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.header {
+	font-family: "Nilam";
+
+}
+.maintitle {
+	font-weight: 900;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 10px;
+
+}
+
+.header .subtitle {
+	font-size: 24px;
+	background-color: #d848af;
+	color: #fff;
+	padding: 10px;
+}
+
+* {
+	color: rgb(48, 192, 40);
+	margin-left: 5px;
+}
+
+h2 {
+	font-size: 20px;
+	color: #d848af;
+	background-color: #000;
+	margin: 10px;
+
+}
+
+h3 {
+	color: #2f8ebd;
+	font-family: "Mulish";
+	font-style: italic;
+	font-size: 18px;
+	margin-top: 6px;
+	font-weight: 400;
+}
+
+div.content {
+	background-color: #33a3c5;
+}
+
+.content {
+	margin-bottom: 15px;
+}
+
+a {
+	font-family: "Mulish";
+	font-weight: 700;
+	font-size: 18px;
+	color: rgb(212, 212, 45);
+	text-decoration: underline;
+}
+
+.title {
+	text-transform: uppercase;
+	font-size: 20px;
+	color: rgb(188, 42, 12);
+	text-shadow: 4px 2px 3px rgb(241, 7, 155);
+	letter-spacing: 2px;
+}
+
+p {
+	text-indent: 15px;
+	margin-top: 7px;
+	
+}
+.etymology p {
+	word-spacing: 5px;
+	font-family: "Mulish";
+	font-weight: 900;
+	background-color: #159329;
+	margin: 5px;
+}
+.characteristics .claws {
+	font-family: "Nilam";
+	font-weight: 700;
+}
+.size {
+	background-color: #7f4569;
+	margin-right: 15px;
+}
+
+.size p{
+	background-color: #000;
+	padding: 5px 10px 7px 12px;
+}
+.skeleton p {
+	white-space: nowrap;
+}
+
+.skeleton h3 {
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+	text-shadow: 15px -4px 5px #000;
+	margin-top: 16px;
+	padding-left: 40px;
+
+}
+.skull,
+.ambulation p {
+	text-decoration: line-through;
+	color: #080fe3;
+	font-size: 25px;
+}
+.claws p {
+	text-align: justify;
+	padding-right: 30px;
+}
+.ambulation {
+	text-align: justify;
+}
+.balance {
+	text-transform: lowercase;
+	background-color: #7f4569;
+}
+.balance p {
+	text-decoration: overline;
+	color: #a2c517;
+}
+
+.vision h3 {
+	text-shadow: -5px 6px 1px #a2c517, 7px -10px 3px #7f4569;
+	text-align: center;
+}
+.hearing {
+	font-family: "Nilam";
+	font-weight: 900;
+}
+.smell {
+	text-align: right;
+	margin-left: 50px;
+	padding-right: 10px;
+}
+.taste {
+	line-height: 2;
+}
+.whiskers * {
+	font-size: 34px;
+	padding-left: 13px;
+	
+}
+.behavior .title {
+	color: #443578;
+	margin-top: 20px;
+}
+.information p {
+	background-color: #123456;
+}
+.sociability * {
+	background-color: rgb(190, 35, 48);
+	padding: 10px 20px 5px;
+}
+
+.sociability-p ~ p {
+	background-color: rgb(186, 209, 220);
+
+}
+.communicstion {
+	text-transform: capitalize;
+	padding: 10px 20px;
+	background-color: #357864;
+}
+
+.title.senses {
+	color: rgb(141, 113, 219);
+	font-size: 30px;
+	background-color: rgb(171, 217, 64);
+	margin: 40px;
+}
+
+h3.hearing {
+	color: rgba(222, 213, 47, 0.545);
+	font-size: 30px;
+	background-color: rgb(122, 28, 28);
+	margin: 40px;
+}
+
+.balance-p + p {
+	color: #2f8ebd;
+}
+
